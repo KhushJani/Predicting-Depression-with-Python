@@ -10,7 +10,7 @@ One of the causes of depression is chronic stress, and it is no wonder this diso
 
 # SOLUTION
 Variables Used for this Analysis:
-1. **phq_score:** A score evaluated from an assessment known as the Patient Health Questionairre (PHQ) to determine the severity of mental health problems such as depression. You can learn more about it [here](https://neurospatms.com/everything-you-need-to-know-about-the-phq-9-test/).
+1. **phq_score:** A score evaluated from an assessment known as the Patient Health Questionairre (PHQ) to determine the severity of mental health problems such as depression.
     - 0 - 4: None-minimal or Normal
     - 5 - 9: Mild
     - 10 - 14: Moderate
@@ -21,7 +21,7 @@ Variables Used for this Analysis:
 4. **depression_diagnosis:** Diagnosis by a mental health specialist as clinically depressed or not.
 5. **depression_treatment:** Undergoing treatment or not.
 6. **suicidal:** Likelihood of committing suicide with True being most likely.
-7. **gad_score:** A score evaluated from an assessment known as Generalized Anxiety Disorder-7 (GAD-7) questionairre to determine the severity of one's anxiety. You can learn more about it [here](https://www.corc.uk.net/outcome-experience-measures/generalised-anxiety-disorder-assessment-gad-7/).
+7. **gad_score:** A score evaluated from an assessment known as Generalized Anxiety Disorder-7 (GAD-7) questionairre to determine the severity of one's anxiety. 
     - 0 - 4: None-minimal or Normal
     - 5 - 9: Mild
     - 10 - 14: Moderate
@@ -29,14 +29,14 @@ Variables Used for this Analysis:
 8. **anxiety_severity:** Estimated from the **gad_score**.
 9. **anxiety_diagnosis:** Diagnosis by a mental health specialist as having Generalized Anxiety Disorder or not.
 10. **anxiety_treatment:** Undergoing anxiety treatment or not.
-11. **epworth_score:** A test score used to measure daytime sleepiness. You can learn more about it, or even take yours [here](https://healthysleep.med.harvard.edu/narcolepsy/diagnosing-narcolepsy/epworth-sleepiness-scale).
+11. **epworth_score:** A test score used to measure daytime sleepiness.
     - 0 - 10: Normal range in healthy adults
     - 11 - 14: Mild sleepiness
     - 15 - 17: Moderate sleepiness
     - 18 - 24: Severe sleepiness
 12. **sleepiness:** Likelihood of daytime sleepiness with True being most likely estimated from the **epworth_score**.
 13. **bmi:** Body Mass Index of participant measured in kg/m²
-14. **who_bmi:** The various categories of nutritional health by Body Mass Index(BMI) according to the WHO. To learn more about it, click [here](https://www.who.int/europe/news-room/fact-sheets/item/a-healthy-lifestyle---who-recommendations).
+14. **who_bmi:** The various categories of nutritional health by Body Mass Index(BMI) according to the WHO. 
     - Below 18.5: Underweight
     - 18.5 - 24.9: Normal weight
     - 25.0 - 29.9: Pre-obesity/Overweight
